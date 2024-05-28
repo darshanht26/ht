@@ -10,21 +10,21 @@ document.addEventListener("DOMContentLoaded", function (event) {
     watchCSS: true,
   });
 
-  // smoother.effects(".casestudy_mobile_image.img_1", {
-  //   speed: 0.985,
-  // });
+  smoother.effects(".casestudy_mobile_image.img_1", {
+    speed: 0.985,
+  });
 
-  // smoother.effects(".casestudy_mobile_image.img_2", {
-  //   speed: 1.005,
-  // });
+  smoother.effects(".casestudy_mobile_image.img_2", {
+    speed: 1.005,
+  });
 
-  // smoother.effects(".casestudy_mobile_image.img_3", {
-  //   speed: 1.003,
-  // });
+  smoother.effects(".casestudy_mobile_image.img_3", {
+    speed: 1.003,
+  });
 
-  // smoother.effects(".casestudy_mobile_image.img_4", {
-  //   speed: 0.935,
-  // });
+  smoother.effects(".casestudy_mobile_image.img_4", {
+    speed: 0.935,
+  });
 
   // Create a Timeline for your animations
   const masterTimeline = gsap.timeline();

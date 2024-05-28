@@ -35,12 +35,19 @@
     <noscript><link rel="stylesheet" href="../assets/css/fonts.css" /></noscript>
 
     <!-- CSS -->
-    <link rel="stylesheet" href="../assets/css/main.css" />
-    <link href="../assets/css/template-casestudy.css" rel="preload" as="style" onload="this.rel='stylesheet'" />
-    <noscript><link rel="stylesheet" href="../assets/css/template-casestudy.css" /></noscript>
-    <link href="../assets/css/flickity.min.css" rel="preload" as="style" onload="this.rel='stylesheet'" />
+    <link rel="stylesheet" href="../assets/css/main.min.css" />
+    <link
+      href="../assets/css/template-casestudy.min.css"
+      rel="preload"
+      as="style"
+      onload="this.rel='stylesheet'" />
+    <noscript><link rel="stylesheet" href="../assets/css/template-casestudy.min.css" /></noscript>
+    <link
+      href="../assets/css/flickity.min.css"
+      rel="preload"
+      as="style"
+      onload="this.rel='stylesheet'" />
     <noscript><link rel="stylesheet" href="../assets/css/flickity.min.css" /></noscript>
-
   </head>
   <body class="hnb casestudy">
     <!-- Header -->
@@ -82,11 +89,9 @@
                 </span>
                 <span class="hover_line"></span>
                 <img
-                  class="hover_img lazyload"
+                  class="hover_img lozad"
                   data-src="../assets/images/hover-animation-home.gif"
                   data-sizes="auto"
-                  width="338"
-                  height="361"
                   alt="" />
               </div>
             </a>
@@ -106,11 +111,9 @@
                 </span>
                 <span class="hover_line"></span>
                 <img
-                  class="hover_img lazyload"
+                  class="hover_img lozad"
                   data-src="../assets/images/hover-animation-work.gif"
                   data-sizes="auto"
-                  width="338"
-                  height="361"
                   alt="" />
               </div>
             </a>
@@ -130,11 +133,9 @@
                 </span>
                 <span class="hover_line"></span>
                 <img
-                  class="hover_img lazyload"
+                  class="hover_img lozad"
                   data-src="../assets/images/hover-animation-about.gif"
                   data-sizes="auto"
-                  width="338"
-                  height="361"
                   alt="" />
               </div>
             </a>
@@ -154,11 +155,9 @@
                 </span>
                 <span class="hover_line"></span>
                 <img
-                  class="hover_img lazyload"
+                  class="hover_img lozad"
                   data-src="../assets/images/hover-animation-contact.gif"
                   data-sizes="auto"
-                  width="338"
-                  height="361"
                   alt="" />
               </div>
             </a>
@@ -174,10 +173,18 @@
         <!-- Page Header Section -->
         <section class="casestudy_header_section casestudy_header">
           <div class="casestudy_header_image cs_anim_header">
-            <img class="lazyload" data-src="../assets/images/hnb/webp/casestudy-hnb.webp" alt="" />
+            <img
+              class="lozad"
+              data-src="../assets/images/hnb/webp/casestudy-hnb.webp"
+              fetchpriority="high"
+              alt="" />
           </div>
           <div class="casestudy_header_logo cs_anim_logo">
-            <img class="lazyload" data-src="../assets/images/hnb/hnb-logo-color.svg" alt="" />
+            <img
+              class="lozad"
+              data-src="../assets/images/hnb/hnb-logo-color.svg"
+              fetchpriority="high"
+              alt="" />
           </div>
         </section>
 
@@ -193,10 +200,7 @@
         <div class="rest_of_the_section">
           <section class="casestudy_info">
             <div class="casestudy_info_website_image">
-              <img
-                class="lazyload"
-                data-src="../assets/images/hnb/webp/hnb-website-large.webp"
-                alt="" />
+              <img loading="lazy" src="../assets/images/hnb/webp/hnb-website-large.webp" alt="" />
             </div>
             <div class="casestudy_info_content">
               <h2 class="casestudy_info_heading">Who, Why <span>and how</span></h2>
@@ -219,6 +223,7 @@
             <div class="casestudy_info_design">
               <div class="casestudy_info_design_image" style="overflow: hidden">
                 <img
+                  loading="lazy"
                   class="design_image"
                   src="../assets/images/hnb/webp/hnb-design-info.webp"
                   alt=""
@@ -231,20 +236,20 @@
                     <div class="font_styles font_styles_mobile flex xl:hidden">
                       <div class="font_style_1 futura">
                         <img
-                          class="lazyload"
-                          data-src="../assets/images/font-svgs/futura_mob_1.svg"
+                          loading="lazy"
+                          src="../assets/images/font-svgs/futura_mob_1.svg"
                           alt="" />
                       </div>
                       <div class="font_style_2 freighttextcmp-pro">
                         <img
-                          class="lazyload"
-                          data-src="../assets/images/font-svgs/freight_mob_2.svg"
+                          loading="lazy"
+                          src="../assets/images/font-svgs/freight_mob_2.svg"
                           alt="" />
                       </div>
                       <div class="font_style_3 dm-sans">
                         <img
-                          class="lazyload"
-                          data-src="../assets/images/font-svgs/dmsans_mob_3.svg"
+                          loading="lazy"
+                          src="../assets/images/font-svgs/dmsans_mob_3.svg"
                           alt="" />
                       </div>
                     </div>
@@ -252,20 +257,20 @@
                     <div class="font_styles font_styles_desktop hidden xl:flex">
                       <div class="font_style_1 futura">
                         <img
-                          class="lazyload"
-                          data-src="../assets/images/font-svgs/futura_desk_1.svg"
+                          loading="lazy"
+                          src="../assets/images/font-svgs/futura_desk_1.svg"
                           alt="" />
                       </div>
                       <div class="font_style_2 freighttextcmp-pro">
                         <img
-                          class="lazyload"
-                          data-src="../assets/images/font-svgs/freight_desk_2.svg"
+                          loading="lazy"
+                          src="../assets/images/font-svgs/freight_desk_2.svg"
                           alt="" />
                       </div>
                       <div class="font_style_3 dm-sans">
                         <img
-                          class="lazyload"
-                          data-src="../assets/images/font-svgs/dmsans_desk_3.svg"
+                          loading="lazy"
+                          src="../assets/images/font-svgs/dmsans_desk_3.svg"
                           alt="" />
                       </div>
                     </div>
@@ -386,6 +391,7 @@
           <section class="casestudy_featured">
             <div class="casestudy_featured_cover" style="overflow: hidden">
               <img
+                loading="lazy"
                 class="design_image_2"
                 src="../assets/images/hnb/webp/hnb-featured-cover.webp"
                 alt=""
@@ -393,39 +399,27 @@
             </div>
             <div class="casestudy_featured_items casestudy_featured_carousel">
               <div class="casestudy_featured_item">
-                <img
-                  class="lazyload"
-                  data-src="../assets/images/hnb/webp/hnb-product-1_new.webp"
-                  alt="" />
+                <img loading="lazy" src="../assets/images/hnb/webp/hnb-product-1_new.webp" alt="" />
               </div>
               <div class="casestudy_featured_item">
-                <img
-                  class="lazyload"
-                  data-src="../assets/images/hnb/webp/hnb-product-2_new.webp"
-                  alt="" />
+                <img loading="lazy" src="../assets/images/hnb/webp/hnb-product-2_new.webp" alt="" />
               </div>
               <div class="casestudy_featured_item">
-                <img
-                  class="lazyload"
-                  data-src="../assets/images/hnb/webp/hnb-product-3_new.webp"
-                  alt="" />
+                <img loading="lazy" src="../assets/images/hnb/webp/hnb-product-3_new.webp" alt="" />
               </div>
               <div class="casestudy_featured_item">
-                <img
-                  class="lazyload"
-                  data-src="../assets/images/hnb/webp/hnb-product-4_new.webp"
-                  alt="" />
+                <img loading="lazy" src="../assets/images/hnb/webp/hnb-product-4_new.webp" alt="" />
               </div>
             </div>
           </section>
 
           <section class="casestudy_deep_dive pt-0">
             <div class="deep_dive_image_section">
-              <img src="../assets/images/hnb/webp/hnb-deep-dive-1.webp" alt="" />
+              <img loading="lazy" src="../assets/images/hnb/webp/hnb-deep-dive-1.webp" alt="" />
             </div>
 
             <div class="deep_dive_image_section">
-              <img src="../assets/images/hnb/webp/hnb-deep-dive-2.webp" alt="" />
+              <img loading="lazy" src="../assets/images/hnb/webp/hnb-deep-dive-2.webp" alt="" />
             </div>
           </section>
 
@@ -445,16 +439,10 @@
           <section class="casestudy_cards sne-cards">
             <div class="cards_wrapper">
               <div class="casestudy_card_image casestudy_card_image_1 with_padding">
-                <img
-                  class="lazyload"
-                  data-src="../assets/images/hnb/webp/hnb-packaging-1.webp"
-                  alt="" />
+                <img loading="lazy" src="../assets/images/hnb/webp/hnb-packaging-1.webp" alt="" />
               </div>
               <div class="casestudy_card_image casestudy_card_image_2">
-                <img
-                  class="lazyload"
-                  data-src="../assets/images/hnb/webp/hnb-packaging-2.webp"
-                  alt="" />
+                <img loading="lazy" src="../assets/images/hnb/webp/hnb-packaging-2.webp" alt="" />
               </div>
             </div>
           </section>
@@ -483,11 +471,17 @@
             </div>
 
             <div class="deep_dive_image_section">
-              <img src="../assets/images/hnb/webp/hnb-deep-dive-image-1.webp" alt="" />
+              <img
+                loading="lazy"
+                src="../assets/images/hnb/webp/hnb-deep-dive-image-1.webp"
+                alt="" />
             </div>
 
             <div class="deep_dive_image_section">
-              <img src="../assets/images/hnb/webp/hnb-deep-dive-image-2.webp" alt="" />
+              <img
+                loading="lazy"
+                src="../assets/images/hnb/webp/hnb-deep-dive-image-2.webp"
+                alt="" />
             </div>
           </section>
 
@@ -496,33 +490,42 @@
               <div
                 class="casestudy_mobile_image img_1"
                 style="transition: cubic-bezier(0.05, 0.5, 0.45, 1) 1s">
-                <img src="../assets/images/hnb/webp/hnb-website-mobile-1.webp" alt="" />
+                <img
+                  loading="lazy"
+                  src="../assets/images/hnb/webp/hnb-website-mobile-1.webp"
+                  alt="" />
               </div>
               <div
                 class="casestudy_mobile_image img_2"
                 style="transition: cubic-bezier(0.05, 0.5, 0.45, 1) 1s">
-                <img src="../assets/images/hnb/webp/hnb-website-mobile-2.webp" alt="" />
+                <img
+                  loading="lazy"
+                  src="../assets/images/hnb/webp/hnb-website-mobile-2.webp"
+                  alt="" />
               </div>
             </div>
             <div class="casestudy_mobile_images">
               <div
                 class="casestudy_mobile_image img_3"
                 style="transition: cubic-bezier(0.05, 0.5, 0.45, 1) 1s">
-                <img src="../assets/images/hnb/webp/hnb-website-mobile-3.webp" alt="" />
+                <img
+                  loading="lazy"
+                  src="../assets/images/hnb/webp/hnb-website-mobile-3.webp"
+                  alt="" />
               </div>
               <div
                 class="casestudy_mobile_image img_4"
                 style="transition: cubic-bezier(0.05, 0.5, 0.45, 1) 1s">
-                <img src="../assets/images/hnb/webp/hnb-website-mobile-4.webp" alt="" />
+                <img
+                  loading="lazy"
+                  src="../assets/images/hnb/webp/hnb-website-mobile-4.webp"
+                  alt="" />
               </div>
             </div>
           </section>
 
           <section class="casestudy_growth_metrics border-l-0 border-r-0 hnb_growth_metrics">
-            <img
-              class="lazyload"
-              data-src="../assets/images/hnb/webp/hnb-growth-metrics.webp"
-              alt="" />
+            <img loading="lazy" src="../assets/images/hnb/webp/hnb-growth-metrics.webp" alt="" />
 
             <div class="metric_data">
               <div class="arrow_design_element hidden">
@@ -626,14 +629,24 @@
 
           <section class="casestudy_logo_and_mascot hnb_mascot">
             <div class="company_logo"></div>
-            <img class="main-logo" src="../assets/images/hnb/webp/hnb-logo-color.webp" alt="" />
+            <img
+              loading="lazy"
+              class="main-logo"
+              src="../assets/images/hnb/webp/hnb-logo-color.webp"
+              alt="" />
 
             <div class="hnb_logo_design_element_1">
-              <img src="../assets/images/hnb/webp/hnb-design-element-cookie.webp" alt="" />
+              <img
+                loading="lazy"
+                src="../assets/images/hnb/webp/hnb-design-element-cookie.webp"
+                alt="" />
             </div>
 
             <div class="hnb_logo_design_element_2">
-              <img src="../assets/images/hnb/webp/hnb-design-element-bread.webp" alt="" />
+              <img
+                loading="lazy"
+                src="../assets/images/hnb/webp/hnb-design-element-bread.webp"
+                alt="" />
             </div>
           </section>
 
@@ -757,9 +770,9 @@
     </div>
 
     <!-- JavaScript -->
-    <script src="../assets/js/lazysizes.min.js" defer></script>
+    <script src="../assets/js/lozad.min.js" defer></script>
     <script src="../assets/js/gsap.min.js" defer></script>
-    <script src="../assets/js/ScrollTrigger.min.js" defer></script>
+    <script src="../assets/js/scrollTrigger.min.js" defer></script>
     <script src="../assets/js/marquee3k.min.js" defer></script>
     <script src="../assets/js/scrollSmoother.min.js" defer></script>
     <script src="../assets/js/flickity.min.js" defer></script>

@@ -9,50 +9,13 @@ document.addEventListener("DOMContentLoaded", function () {
   // marquee init
   Marquee3k.init();
 
+  const observer = lozad();
+  observer.observe();
 
   // when lazyload image load scrolltrigger refresh
   // gsap.utils.toArray(".lazyload").forEach(img => {
   //   img.addEventListener("load", () =>  smoother.scrollTrigger.refresh())
   // });
-
-
-  ScrollTrigger.config({ limitCallbacks: true });
-
-gsap.utils.toArray(".lazyload").forEach(image => {
-
-  let newSRC = image.dataset.src,
-      newImage = document.createElement("img"),
-
-  loadImage = () => {
-    newImage.onload = () => {
-      newImage.onload = null; // avoid recursion
-      newImage.src = image.src; // swap the src
-      image.src = newSRC;
-      // place the low-res version on TOP and then fade it out.
-      gsap.set(newImage, {
-        position: "absolute",
-        top: image.offsetTop,
-        left: image.offsetLeft,
-        width: image.offsetWidth,
-        height: image.offsetHeight
-      });
-      image.parentNode.appendChild(newImage);
-      gsap.to(newImage, {
-        opacity: 0,
-        onComplete: () => newImage.parentNode.removeChild(newImage)
-      });
-      st && st.kill();
-    }
-    newImage.src = newSRC;
-  },
-
-  st = ScrollTrigger.create({
-    trigger: image,
-    start: "-50% bottom",
-    onEnter: loadImage,
-    onEnterBack: loadImage // make sure it works in either direction
-  });
-});
 
   document.querySelector(".site_menu_modal").style.display = "none";
   var menuOpen = new TimelineLite({ paused: true });

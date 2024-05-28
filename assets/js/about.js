@@ -1,8 +1,4 @@
 document.addEventListener("DOMContentLoaded", function () {
-  document.querySelectorAll(".lazyload").forEach(img => {
-    img.addEventListener("load", () => smoother.scrollTrigger.refresh())
-  });
-
   // marquee text animation
   const marqueeElements = document.querySelectorAll('.marquee-text');
   let marqueeStart = 0;

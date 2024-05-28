@@ -961,6 +961,7 @@
 .featured_work_row_fitelo,
 .featured_work_row_fitelo .featured_work_left {
   background-color: #ff8643;
+  color: var(--black);
 }
 
 .featured_work_left {

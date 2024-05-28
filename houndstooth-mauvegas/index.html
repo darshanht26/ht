@@ -36,10 +36,18 @@
     <noscript><link rel="stylesheet" href="../assets/css/fonts.css" /></noscript>
 
     <!-- CSS -->
-    <link rel="stylesheet" href="../assets/css/main.css" />
-    <link href="../assets/css/template-casestudy.css" rel="preload" as="style" onload="this.rel='stylesheet'" />
-    <noscript><link rel="stylesheet" href="../assets/css/template-casestudy.css" /></noscript>
-    <link href="../assets/css/flickity.min.css" rel="preload" as="style" onload="this.rel='stylesheet'" />
+    <link rel="stylesheet" href="../assets/css/main.min.css" />
+    <link
+      href="../assets/css/template-casestudy.min.css"
+      rel="preload"
+      as="style"
+      onload="this.rel='stylesheet'" />
+    <noscript><link rel="stylesheet" href="../assets/css/template-casestudy.min.css" /></noscript>
+    <link
+      href="../assets/css/flickity.min.css"
+      rel="preload"
+      as="style"
+      onload="this.rel='stylesheet'" />
     <noscript><link rel="stylesheet" href="../assets/css/flickity.min.css" /></noscript>
   </head>
   <body class="mau casestudy">
@@ -82,11 +90,9 @@
                 </span>
                 <span class="hover_line"></span>
                 <img
-                  class="hover_img lazyload"
+                  class="hover_img lozad"
                   data-src="../assets/images/hover-animation-home.gif"
                   data-sizes="auto"
-                  width="338"
-                  height="361"
                   alt="" />
               </div>
             </a>
@@ -106,11 +112,9 @@
                 </span>
                 <span class="hover_line"></span>
                 <img
-                  class="hover_img lazyload"
+                  class="hover_img lozad"
                   data-src="../assets/images/hover-animation-work.gif"
                   data-sizes="auto"
-                  width="338"
-                  height="361"
                   alt="" />
               </div>
             </a>
@@ -130,11 +134,9 @@
                 </span>
                 <span class="hover_line"></span>
                 <img
-                  class="hover_img lazyload"
+                  class="hover_img lozad"
                   data-src="../assets/images/hover-animation-about.gif"
                   data-sizes="auto"
-                  width="338"
-                  height="361"
                   alt="" />
               </div>
             </a>
@@ -154,11 +156,9 @@
                 </span>
                 <span class="hover_line"></span>
                 <img
-                  class="hover_img lazyload"
+                  class="hover_img lozad"
                   data-src="../assets/images/hover-animation-contact.gif"
                   data-sizes="auto"
-                  width="338"
-                  height="361"
                   alt="" />
               </div>
             </a>
@@ -174,7 +174,11 @@
         <!-- Page Header Section -->
         <section class="casestudy_header_section casestudy_header">
           <div class="casestudy_header_image cs_anim_header">
-            <img class="lazyload" data-src="../assets/images/mau/webp/casestudy-mau.webp" alt="" />
+            <img
+              class="lozad"
+              data-src="../assets/images/mau/webp/casestudy-mau.webp"
+              fetchpriority="high"
+              alt="" />
           </div>
         </section>
 
@@ -190,10 +194,7 @@
         <div class="rest_of_the_section">
           <section class="casestudy_info">
             <div class="casestudy_info_website_image">
-              <img
-                class="lazyload"
-                data-src="../assets/images/mau/webp/mau-website-large.webp"
-                alt="" />
+              <img loading="lazy" src="../assets/images/mau/webp/mau-website-large.webp" alt="" />
             </div>
             <div class="casestudy_info_content">
               <h2 class="casestudy_info_heading">Who, Why <span>and how</span></h2>
@@ -215,6 +216,7 @@
             <div class="casestudy_info_design">
               <div class="casestudy_info_design_image" style="overflow: hidden">
                 <img
+                  loading="lazy"
                   class="design_image"
                   src="../assets/images/mau/webp/mau-design-info.webp"
                   alt=""
@@ -227,40 +229,40 @@
                     <div class="font_styles font_styles_mobile flex xl:hidden">
                       <div class="font_style_1">
                         <img
-                          class="lazyload"
-                          data-src="../assets/images/font-svgs/titling_mob_1.svg"
+                          loading="lazy"
+                          src="../assets/images/font-svgs/titling_mob_1.svg"
                           alt="" />
                       </div>
                       <div class="font_style_2">
                         <img
-                          class="lazyload"
-                          data-src="../assets/images/font-svgs/raleway_mob_2.svg"
+                          loading="lazy"
+                          src="../assets/images/font-svgs/raleway_mob_2.svg"
                           alt="" />
                       </div>
                       <div class="font_style_3">
                         <img
-                          class="lazyload"
-                          data-src="../assets/images/font-svgs/raleway_mob_3.svg"
+                          loading="lazy"
+                          src="../assets/images/font-svgs/raleway_mob_3.svg"
                           alt="" />
                       </div>
                     </div>
                     <div class="font_styles font_styles_desktop hidden xl:flex">
                       <div class="font_style_1">
                         <img
-                          class="lazyload"
-                          data-src="../assets/images/font-svgs/titling_desk_1.svg"
+                          loading="lazy"
+                          src="../assets/images/font-svgs/titling_desk_1.svg"
                           alt="" />
                       </div>
                       <div class="font_style_2">
                         <img
-                          class="lazyload"
-                          data-src="../assets/images/font-svgs/raleway_desk_2.svg"
+                          loading="lazy"
+                          src="../assets/images/font-svgs/raleway_desk_2.svg"
                           alt="" />
                       </div>
                       <div class="font_style_3">
                         <img
-                          class="lazyload"
-                          data-src="../assets/images/font-svgs/raleway_desk_3.svg"
+                          loading="lazy"
+                          src="../assets/images/font-svgs/raleway_desk_3.svg"
                           alt="" />
                       </div>
                     </div>
@@ -305,6 +307,7 @@
           <section class="casestudy_featured">
             <div class="casestudy_featured_cover" style="overflow: hidden">
               <img
+                loading="lazy"
                 class="design_image_2"
                 src="../assets/images/mau/webp/mau-featured-cover.webp"
                 alt=""
@@ -312,28 +315,16 @@
             </div>
             <div class="casestudy_featured_items casestudy_featured_carousel">
               <div class="casestudy_featured_item">
-                <img
-                  class="lazyload"
-                  data-src="../assets/images/mau/webp/mau-product-1.webp"
-                  alt="" />
+                <img loading="lazy" src="../assets/images/mau/webp/mau-product-1.webp" alt="" />
               </div>
               <div class="casestudy_featured_item">
-                <img
-                  class="lazyload"
-                  data-src="../assets/images/mau/webp/mau-product-2.webp"
-                  alt="" />
+                <img loading="lazy" src="../assets/images/mau/webp/mau-product-2.webp" alt="" />
               </div>
               <div class="casestudy_featured_item">
-                <img
-                  class="lazyload"
-                  data-src="../assets/images/mau/webp/mau-product-3.webp"
-                  alt="" />
+                <img loading="lazy" src="../assets/images/mau/webp/mau-product-3.webp" alt="" />
               </div>
               <div class="casestudy_featured_item">
-                <img
-                  class="lazyload"
-                  data-src="../assets/images/mau/webp/mau-product-4.webp"
-                  alt="" />
+                <img loading="lazy" src="../assets/images/mau/webp/mau-product-4.webp" alt="" />
               </div>
             </div>
           </section>
@@ -342,15 +333,12 @@
             <div class="cards_wrapper">
               <div class="casestudy_card_image casestudy_card_image_1 with_padding border-t">
                 <img
-                  class="lazyload"
-                  data-src="../assets/images/mau/webp/mau-packaging-1_new.webp"
+                  loading="lazy"
+                  src="../assets/images/mau/webp/mau-packaging-1_new.webp"
                   alt="" />
               </div>
               <div class="casestudy_card_image casestudy_card_image_2">
-                <img
-                  class="lazyload"
-                  data-src="../assets/images/mau/webp/mau-packaging-2.webp"
-                  alt="" />
+                <img loading="lazy" src="../assets/images/mau/webp/mau-packaging-2.webp" alt="" />
               </div>
             </div>
           </section>
@@ -382,15 +370,12 @@
             <div class="cards_wrapper">
               <div class="casestudy_card_image casestudy_card_image_1 with_padding border-t">
                 <img
-                  class="lazyload"
-                  data-src="../assets/images/mau/webp/mau-packaging-1_updated.webp"
+                  loading="lazy"
+                  src="../assets/images/mau/webp/mau-packaging-1_updated.webp"
                   alt="" />
               </div>
               <div class="casestudy_card_image casestudy_card_image_2">
-                <img
-                  class="lazyload"
-                  data-src="../assets/images/mau/webp/mau-packaging-2-1.webp"
-                  alt="" />
+                <img loading="lazy" src="../assets/images/mau/webp/mau-packaging-2-1.webp" alt="" />
               </div>
             </div>
           </section>
@@ -398,24 +383,29 @@
           <section class="casestudy_deep_dive">
             <div class="deep_dive_image_section mau-deep-dive" style="overflow: hidden">
               <img
+                loading="lazy"
                 class="xl:hidden"
                 src="../assets/images/mau/webp/mau-apps-deep-dive-1_mob.webp"
                 alt="" />
               <img
+                loading="lazy"
                 class="hidden xl:block"
                 src="../assets/images/mau/webp/mau-apps-deep-dive-1_updated.webp"
                 alt="" />
             </div>
 
             <div class="deep_dive_image_section mau-deep-dive" style="overflow: hidden">
-              <img src="../assets/images/mau/webp/mau-apps-deep-dive-2_updated.webp" alt="" />
+              <img
+                loading="lazy"
+                src="../assets/images/mau/webp/mau-apps-deep-dive-2_updated.webp"
+                alt="" />
             </div>
           </section>
 
           <section class="casestudy_awards mau_awards">
             <div class="casestudy_award_card">
               <div class="award_details">
-                <img src="../assets/images/mau/webp/mau-award-badge-1.webp" alt="" />
+                <img loading="lazy" src="../assets/images/mau/webp/mau-award-badge-1.webp" alt="" />
                 <h5 class="xl:hidden">
                   <svg
                     width="178"
@@ -458,12 +448,16 @@
               </div>
               <div class="award_image">
                 <img
+                  loading="lazy"
                   class="h-fit w-fit block"
                   src="../assets/images/mau/webp/mau-award-image-1.webp"
                   alt="" />
 
                 <span class="award_winner_stamp">
-                  <img src="../assets/images/mau/webp/mau-award-winner-stamp.webp" alt="" />
+                  <img
+                    loading="lazy"
+                    src="../assets/images/mau/webp/mau-award-winner-stamp.webp"
+                    alt="" />
                 </span>
               </div>
             </div>
@@ -472,7 +466,7 @@
 
           <section class="casestudy_logo_and_mascot mau_mascot">
             <div class="company_logo">
-              <img src="../assets/images/mau/webp/mau-logo-black.webp" alt="" />
+              <img loading="lazy" src="../assets/images/mau/webp/mau-logo-black.webp" alt="" />
             </div>
           </section>
 
@@ -596,9 +590,9 @@
     </div>
 
     <!-- JavaScript -->
-    <script src="../assets/js/lazysizes.min.js" defer></script>
+    <script src="../assets/js/lozad.min.js" defer></script>
     <script src="../assets/js/gsap.min.js" defer></script>
-    <script src="../assets/js/ScrollTrigger.min.js" defer></script>
+    <script src="../assets/js/scrollTrigger.min.js" defer></script>
     <script src="../assets/js/marquee3k.min.js" defer></script>
     <script src="../assets/js/scrollSmoother.min.js" defer></script>
     <script src="../assets/js/flickity.min.js" defer></script>

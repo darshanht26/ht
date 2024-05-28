@@ -36,10 +36,18 @@
     <noscript><link rel="stylesheet" href="../assets/css/fonts.css" /></noscript>
 
     <!-- CSS -->
-    <link rel="stylesheet" href="../assets/css/main.css" />
-    <link href="../assets/css/template-casestudy.css" rel="preload" as="style" onload="this.rel='stylesheet'" />
-    <noscript><link rel="stylesheet" href="../assets/css/template-casestudy.css" /></noscript>
-    <link href="../assets/css/flickity.min.css" rel="preload" as="style" onload="this.rel='stylesheet'" />
+    <link rel="stylesheet" href="../assets/css/main.min.css" />
+    <link
+      href="../assets/css/template-casestudy.min.css"
+      rel="preload"
+      as="style"
+      onload="this.rel='stylesheet'" />
+    <noscript><link rel="stylesheet" href="../assets/css/template-casestudy.min.css" /></noscript>
+    <link
+      href="../assets/css/flickity.min.css"
+      rel="preload"
+      as="style"
+      onload="this.rel='stylesheet'" />
     <noscript><link rel="stylesheet" href="../assets/css/flickity.min.css" /></noscript>
   </head>
   <body class="shomont casestudy">
@@ -82,11 +90,9 @@
                 </span>
                 <span class="hover_line"></span>
                 <img
-                  class="hover_img lazyload"
+                  class="hover_img lozad"
                   data-src="../assets/images/hover-animation-home.gif"
                   data-sizes="auto"
-                  width="338"
-                  height="361"
                   alt="" />
               </div>
             </a>
@@ -106,11 +112,9 @@
                 </span>
                 <span class="hover_line"></span>
                 <img
-                  class="hover_img lazyload"
+                  class="hover_img lozad"
                   data-src="../assets/images/hover-animation-work.gif"
                   data-sizes="auto"
-                  width="338"
-                  height="361"
                   alt="" />
               </div>
             </a>
@@ -130,11 +134,9 @@
                 </span>
                 <span class="hover_line"></span>
                 <img
-                  class="hover_img lazyload"
+                  class="hover_img lozad"
                   data-src="../assets/images/hover-animation-about.gif"
                   data-sizes="auto"
-                  width="338"
-                  height="361"
                   alt="" />
               </div>
             </a>
@@ -154,11 +156,9 @@
                 </span>
                 <span class="hover_line"></span>
                 <img
-                  class="hover_img lazyload"
+                  class="hover_img lozad"
                   data-src="../assets/images/hover-animation-contact.gif"
                   data-sizes="auto"
-                  width="338"
-                  height="361"
                   alt="" />
               </div>
             </a>
@@ -175,14 +175,16 @@
         <section class="casestudy_header_section casestudy_header">
           <div class="casestudy_header_image cs_anim_header">
             <img
-              class="lazyload"
+              class="lozad"
               data-src="../assets/images/shomont/webp/casestudy-shomont.webp"
+              fetchpriority="high"
               alt="" />
           </div>
           <div class="casestudy_header_logo cs_anim_logo">
             <img
-              class="lazyload"
+              class="lozad"
               data-src="../assets/images/shomont/shomont-logo-color.svg"
+              fetchpriority="high"
               alt="" />
           </div>
         </section>
@@ -200,8 +202,8 @@
           <section class="casestudy_info">
             <div class="casestudy_info_website_image">
               <img
-                class="lazyload"
-                data-src="../assets/images/shomont/webp/shomont-website-large.webp"
+                loading="lazy"
+                src="../assets/images/shomont/webp/shomont-website-large.webp"
                 alt="" />
             </div>
             <div class="casestudy_info_content">
@@ -228,6 +230,7 @@
             <div class="casestudy_info_design">
               <div class="casestudy_info_design_image" style="overflow: hidden">
                 <img
+                  loading="lazy"
                   class="design_image"
                   src="../assets/images/shomont/webp/shomont-design-info.webp"
                   alt=""
@@ -327,14 +330,14 @@
                       <div class="font_style_1 freight-display-pro"></div>
                       <div class="font_style_2 presicav">
                         <img
-                          class="lazyload"
-                          data-src="../assets/images/font-svgs/presicav_mob_2.svg"
+                          loading="lazy"
+                          src="../assets/images/font-svgs/presicav_mob_2.svg"
                           alt="" />
                       </div>
                       <div class="font_style_3 freight-display-pro">
                         <img
-                          class="lazyload"
-                          data-src="../assets/images/font-svgs/freightdisp_mob_3.svg"
+                          loading="lazy"
+                          src="../assets/images/font-svgs/freightdisp_mob_3.svg"
                           alt="" />
                       </div>
                     </div>
@@ -342,20 +345,20 @@
                     <div class="font_styles font_styles_desktop hidden xl:flex">
                       <div class="font_style_1 freight-display-pro">
                         <img
-                          class="lazyload"
-                          data-src="../assets/images/font-svgs/freightdisp_desk_1.svg"
+                          loading="lazy"
+                          src="../assets/images/font-svgs/freightdisp_desk_1.svg"
                           alt="" />
                       </div>
                       <div class="font_style_2 presicav">
                         <img
-                          class="lazyload"
-                          data-src="../assets/images/font-svgs/presicav_desk_2.svg"
+                          loading="lazy"
+                          src="../assets/images/font-svgs/presicav_desk_2.svg"
                           alt="" />
                       </div>
                       <div class="font_style_3 freight-display-pro">
                         <img
-                          class="lazyload"
-                          data-src="../assets/images/font-svgs/freightdisp_desk_3.svg"
+                          loading="lazy"
+                          src="../assets/images/font-svgs/freightdisp_desk_3.svg"
                           alt="" />
                       </div>
                     </div>
@@ -392,6 +395,7 @@
           <section class="casestudy_featured shorter">
             <div class="casestudy_featured_cover" style="overflow: hidden">
               <img
+                loading="lazy"
                 class="design_image_2"
                 src="../assets/images/shomont/webp/shomont-featured-cover.webp"
                 alt=""
@@ -400,26 +404,26 @@
             <div class="casestudy_featured_items casestudy_featured_carousel">
               <div class="casestudy_featured_item">
                 <img
-                  class="lazyload"
-                  data-src="../assets/images/shomont/webp/shomont-product-1_new.webp"
+                  loading="lazy"
+                  src="../assets/images/shomont/webp/shomont-product-1_new.webp"
                   alt="" />
               </div>
               <div class="casestudy_featured_item">
                 <img
-                  class="lazyload"
-                  data-src="../assets/images/shomont/webp/shomont-product-2_new.webp"
+                  loading="lazy"
+                  src="../assets/images/shomont/webp/shomont-product-2_new.webp"
                   alt="" />
               </div>
               <div class="casestudy_featured_item">
                 <img
-                  class="lazyload"
-                  data-src="../assets/images/shomont/webp/shomont-product-3_new.webp"
+                  loading="lazy"
+                  src="../assets/images/shomont/webp/shomont-product-3_new.webp"
                   alt="" />
               </div>
               <div class="casestudy_featured_item">
                 <img
-                  class="lazyload"
-                  data-src="../assets/images/shomont/webp/shomont-product-4_new.webp"
+                  loading="lazy"
+                  src="../assets/images/shomont/webp/shomont-product-4_new.webp"
                   alt="" />
               </div>
             </div>
@@ -427,7 +431,10 @@
 
           <section class="casestudy_deep_dive">
             <div class="deep_dive_image_section">
-              <img src="../assets/images/shomont/webp/shomont-deep-dive.webp" alt="" />
+              <img
+                loading="lazy"
+                src="../assets/images/shomont/webp/shomont-deep-dive.webp"
+                alt="" />
             </div>
           </section>
 
@@ -447,17 +454,26 @@
           <section class="casestudy_cards sne-cards">
             <div class="cards_wrapper">
               <div class="casestudy_card_image casestudy_card_image_1 with_padding">
-                <img src="../assets/images/shomont/webp/shomont-packaging-1_new.webp" alt="" />
+                <img
+                  loading="lazy"
+                  src="../assets/images/shomont/webp/shomont-packaging-1_new.webp"
+                  alt="" />
               </div>
               <div class="casestudy_card_image casestudy_card_image_2">
-                <img src="../assets/images/shomont/webp/shomont-packaging-2.webp" alt="" />
+                <img
+                  loading="lazy"
+                  src="../assets/images/shomont/webp/shomont-packaging-2.webp"
+                  alt="" />
               </div>
             </div>
           </section>
 
           <section class="casestudy_deep_dive">
             <div class="deep_dive_image_section">
-              <img src="../assets/images/shomont/webp/shomont-deep-dive-1.webp" alt="" />
+              <img
+                loading="lazy"
+                src="../assets/images/shomont/webp/shomont-deep-dive-1.webp"
+                alt="" />
             </div>
           </section>
 
@@ -466,34 +482,52 @@
               <div
                 class="casestudy_mobile_image img_1"
                 style="transition: cubic-bezier(0.05, 0.5, 0.45, 1) 1s">
-                <img src="../assets/images/shomont/webp/shomont-website-mobile-1.webp" alt="" />
+                <img
+                  loading="lazy"
+                  src="../assets/images/shomont/webp/shomont-website-mobile-1.webp"
+                  alt="" />
               </div>
               <div
                 class="casestudy_mobile_image img_2"
                 style="transition: cubic-bezier(0.05, 0.5, 0.45, 1) 1s">
-                <img src="../assets/images/shomont/webp/shomont-website-mobile-2.webp" alt="" />
+                <img
+                  loading="lazy"
+                  src="../assets/images/shomont/webp/shomont-website-mobile-2.webp"
+                  alt="" />
               </div>
             </div>
             <div class="casestudy_mobile_images">
               <div
                 class="casestudy_mobile_image img_3"
                 style="transition: cubic-bezier(0.05, 0.5, 0.45, 1) 1s">
-                <img src="../assets/images/shomont/webp/shomont-website-mobile-3.webp" alt="" />
+                <img
+                  loading="lazy"
+                  src="../assets/images/shomont/webp/shomont-website-mobile-3.webp"
+                  alt="" />
               </div>
               <div
                 class="casestudy_mobile_image img_4"
                 style="transition: cubic-bezier(0.05, 0.5, 0.45, 1) 1s">
-                <img src="../assets/images/shomont/webp/shomont-website-mobile-4.webp" alt="" />
+                <img
+                  loading="lazy"
+                  src="../assets/images/shomont/webp/shomont-website-mobile-4.webp"
+                  alt="" />
               </div>
             </div>
           </section>
 
           <section class="casestudy_faq_section">
             <div class="desktop_faq">
-              <img src="../assets/images/shomont/webp/shomont-desktop-footer.webp" alt="" />
+              <img
+                loading="lazy"
+                src="../assets/images/shomont/webp/shomont-desktop-footer.webp"
+                alt="" />
             </div>
             <div class="mobile_faq">
-              <img src="../assets/images/shomont/webp/shomont-mobile-footer.webp" alt="" />
+              <img
+                loading="lazy"
+                src="../assets/images/shomont/webp/shomont-mobile-footer.webp"
+                alt="" />
             </div>
           </section>
 
@@ -617,9 +651,9 @@
     </div>
 
     <!-- JavaScript -->
-    <script src="../assets/js/lazysizes.min.js" defer></script>
+    <script src="../assets/js/lozad.min.js" defer></script>
     <script src="../assets/js/gsap.min.js" defer></script>
-    <script src="../assets/js/ScrollTrigger.min.js" defer></script>
+    <script src="../assets/js/scrollTrigger.min.js" defer></script>
     <script src="../assets/js/marquee3k.min.js" defer></script>
     <script src="../assets/js/scrollSmoother.min.js" defer></script>
     <script src="../assets/js/flickity.min.js" defer></script>
