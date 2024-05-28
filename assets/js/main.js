@@ -29,9 +29,9 @@ document.addEventListener("DOMContentLoaded", function () {
   handleLazyLoad({ lazy: true, timeout: 1 });
 
 
-  gsap.utils.toArray("img[loading='lazy']").forEach(img => {
-    img.addEventListener("load", () => scrollTrigger.refresh())
-  });
+  // gsap.utils.toArray("img[loading='lazy']").forEach(img => {
+  //   img.addEventListener("load", () => scrollTrigger.refresh())
+  // });
 
   document.querySelector(".site_menu_modal").style.display = "none";
   var menuOpen = new TimelineLite({ paused: true });
