@@ -20,18 +20,18 @@ document.addEventListener("DOMContentLoaded", function () {
       imgLoaded = lazyImages.length,
       onImgLoad = () => lazyMode ? timeout.restart(true) : --imgLoaded || ScrollTrigger.refresh();
     lazyImages.forEach((img, i) => {
-      lazyMode || (img.loading = "lazy");
+      lazyMode || (img.loading = "eager");
       img.naturalWidth ? onImgLoad() : img.addEventListener("load", onImgLoad);
     });
   }
 
   // usage: you can optionally set lazy to false to change all images to load="eager". timeout is how many seconds it throttles the loading events that call ScrollTrigger.refresh()
-  handleLazyLoad({ lazy: true, timeout: 1 });
+  handleLazyLoad({ lazy: false, timeout: 1 });
 
 
-  // gsap.utils.toArray(".lazyload").forEach(img => {
-  //   img.addEventListener("load", () =>  smoother.scrollTrigger.refresh())
-  // });
+  gsap.utils.toArray("img[loading='lazy']").forEach(img => {
+    img.addEventListener("load", () => scrollTrigger.refresh())
+  });
 
   document.querySelector(".site_menu_modal").style.display = "none";
   var menuOpen = new TimelineLite({ paused: true });
