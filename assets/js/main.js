@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   // usage: you can optionally set lazy to false to change all images to load="eager". timeout is how many seconds it throttles the loading events that call ScrollTrigger.refresh()
-  handleLazyLoad({ lazy: false, timeout: 1 });
+  handleLazyLoad({ lazy: false, timeout: 5 });
 
 
   // gsap.utils.toArray(".lazyload").forEach(img => {
