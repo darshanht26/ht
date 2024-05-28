@@ -2660,6 +2660,7 @@ body.recess .casestudy_featured_item img {
 
 .cs_anim_header img {
   width: 100%;
+  aspect-ratio: 1 / 0.55;
 }
 
 .scroll-animation {
