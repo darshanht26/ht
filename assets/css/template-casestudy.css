@@ -1,159 +1,6 @@
-/* @import url("https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;600;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;500;600;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap");
-
-
-.spartan {
-  font-family: "Spartan", sans-serif;
-}
-
-.calluna {
-  font-family: "calluna-sans", sans-serif;
-  font-weight: 400;
-}
-
-.calluna-semibold {
-  font-family: "calluna-sans", sans-serif;
-  font-weight: 600;
-}
-
-.calluna-bold {
-  font-family: "calluna", serif;
-  font-weight: 700;
-}
-
-@font-face {
-  font-family: "Satoshi Regular";
-  src: url("../fonts/Fitelo/Satoshi Regular.eot");
-  src: url("../fonts/Fitelo/Satoshi Regular.eot?#iefix")
-      format("embedded-opentype"),
-    url("../fonts/Fitelo/Satoshi Regular.woff2") format("woff2"),
-    url("../fonts/Fitelo/Satoshi Regular.woff") format("woff"),
-    url("../fonts/Fitelo/Satoshi Regular.ttf") format("truetype"),
-    url("../fonts/Fitelo/Satoshi Regular.otf") format("opentype"),
-    url("../fonts/Fitelo/Satoshi Regular.svg#Satoshi Regular") format("svg");
-  font-weight: 400;
-  font-style: normal;
-  font-stretch: normal;
-  unicode-range: U+0020-00FE;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Satoshi Medium";
-  src: url("../fonts/Fitelo/Satoshi Medium.eot");
-  src: url("../fonts/Fitelo/Satoshi Medium.eot?#iefix")
-      format("embedded-opentype"),
-    url("../fonts/Fitelo/Satoshi Medium.woff2") format("woff2"),
-    url("../fonts/Fitelo/Satoshi Medium.woff") format("woff"),
-    url("../fonts/Fitelo/Satoshi Medium.ttf") format("truetype"),
-    url("../fonts/Fitelo/Satoshi Medium.otf") format("opentype"),
-    url("../fonts/Fitelo/Satoshi Medium.svg#Satoshi Medium") format("svg");
-  font-weight: 500;
-  font-style: normal;
-  font-stretch: normal;
-  unicode-range: U+0020-00FE;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Satoshi Bold";
-  src: url("../fonts/Fitelo/Satoshi Bold.eot");
-  src: url("../fonts/Fitelo/Satoshi Bold.eot?#iefix")
-      format("embedded-opentype"),
-    url("../fonts/Fitelo/Satoshi Bold.woff2") format("woff2"),
-    url("../fonts/Fitelo/Satoshi Bold.woff") format("woff"),
-    url("../fonts/Fitelo/Satoshi Bold.ttf") format("truetype"),
-    url("../fonts/Fitelo/Satoshi Bold.otf") format("opentype"),
-    url("../fonts/Fitelo/Satoshi Bold.svg#Satoshi Bold") format("svg");
-  font-weight: 700;
-  font-style: normal;
-  font-stretch: normal;
-  unicode-range: U+0020-00FE;
-  font-display: swap;
-}
-
-.satoshi-regular {
-  font-family: "Satoshi Regular", sans-serif;
-}
-
-.satoshi-medium {
-  font-family: "Satoshi Medium", sans-serif;
-}
-
-.satoshi-bold {
-  font-family: "Satoshi Bold", sans-serif;
-}
-
-@font-face {
-  font-family: "Neue Haas Roman";
-  src: url("../fonts/Upbeat/NeueHaasDisplay-Roman.eot");
-  src: url("../fonts/Upbeat/NeueHaasDisplay-Roman.eot?#iefix")
-      format("embedded-opentype"),
-    url("../fonts/Upbeat/NeueHaasDisplay-Roman.woff2") format("woff2"),
-    url("../fonts/Upbeat/NeueHaasDisplay-Roman.woff") format("woff"),
-    url("../fonts/Upbeat/NeueHaasDisplay-Roman.ttf") format("truetype"),
-    url("../fonts/Upbeat/NeueHaasDisplay-Roman.otf") format("opentype"),
-    url("../fonts/Upbeat/NeueHaasDisplay-Roman.svg#NeueHaasDisplay-Roman")
-      format("svg");
-  font-weight: 400;
-  font-style: normal;
-  font-stretch: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Neue Haas Medium";
-  src: url("../fonts/Upbeat/NeueHaasDisplay-Mediu.eot");
-  src: url("../fonts/Upbeat/NeueHaasDisplay-Mediu.eot?#iefix")
-      format("embedded-opentype"),
-    url("../fonts/Upbeat/NeueHaasDisplay-Mediu.woff2") format("woff2"),
-    url("../fonts/Upbeat/NeueHaasDisplay-Mediu.woff") format("woff"),
-    url("../fonts/Upbeat/NeueHaasDisplay-Mediu.ttf") format("truetype"),
-    url("../fonts/Upbeat/NeueHaasDisplay-Mediu.otf") format("opentype"),
-    url("../fonts/Upbeat/NeueHaasDisplay-Mediu.svg#NeueHaasDisplay-Mediu")
-      format("svg");
-  font-weight: 500;
-  font-style: normal;
-  font-stretch: normal;
-  font-display: swap;
-}
-
-.neue-haas {
-  font-family: "Neue Haas Roman", sans-serif;
-}
-
-.neue-haas-medium {
-  font-family: "Neue Haas Medium", sans-serif;
-}
-
-.be-vietnam-pro {
-  font-family: "Be Vietnam Pro", sans-serif;
-}
-
-.futura {
-  font-family: "futura-pt-bold", sans-serif;
-  font-weight: 700;
-}
-
-.freighttextcmp-pro {
-  font-family: "freighttextcmp-pro", serif;
-}
-
-.dm-sans {
-  font-family: "DM Sans", sans-serif;
-}
-
-.freight-display-pro {
-  font-family: "freight-display-pro", serif;
-}
-
-.presicav {
-  font-family: "presicav", sans-serif;
-} */
-
 /* styles */
 body {
   background-color: #faf7eb;
-  /* transition: background-color .1s ease-in-out; */
-  overscroll-behavior: contain !important;
 }
 
 body.darkbg {
@@ -199,6 +46,8 @@ body.mau {
 
 img {
   object-fit: cover;
+  width: 100%;
+  height: 100%;
 }
 
 /* Header */
@@ -635,6 +484,7 @@ img {
 .casestudy_info_website_image {
   margin-bottom: 28px;
   line-height: 0;
+  aspect-ratio: 1/0.55;
 }
 
 .casestudy_info_website_image img {
@@ -1362,6 +1212,10 @@ img {
 .casestudy_footer {
 }
 
+.casestudy_footer_cover {
+  aspect-ratio: 1 / 0.4;
+}
+
 .casestudy_footer_item {
   display: flex;
   margin-top: -65px;
@@ -1387,7 +1241,8 @@ img {
 }
 
 .casestudy_featured_cover {
-  height: 160px;
+  aspect-ratio: 1 / 0.42;
+  /* height: 160px; */
 }
 
 .casestudy_featured_cover img {
@@ -1406,7 +1261,7 @@ img {
   flex-wrap: wrap;
   align-items: center;
   gap: 15px; */
-  position: absolute;
+  position: absolute !important;
   left: 0;
   right: 0;
   top: 125px;
@@ -1439,7 +1294,7 @@ body.recess .casestudy_featured_item img {
   }
 
   .casestudy_featured_cover {
-    height: 500px;
+    /* height: 500px; */
   }
 
   .casestudy_featured_items {
@@ -1483,7 +1338,7 @@ body.recess .casestudy_featured_item img {
   }
 
   .casestudy_featured_cover {
-    height: 600px;
+    /* height: 600px; */
   }
 
   .casestudy_featured_items {
@@ -1508,6 +1363,7 @@ body.recess .casestudy_featured_item img {
   .casestudy_footer_item {
     margin-top: -300px;
     margin-bottom: 64px;
+    aspect-ratio: 1 / 0.68;
   }
 
   .desk-hover-img {
@@ -1540,8 +1396,8 @@ body.recess .casestudy_featured_item img {
 
 @media (min-width: 1536px) {
   .casestudy_featured_cover {
-    aspect-ratio: 1/0.42;
-    height: auto;
+    /* aspect-ratio: 1/0.42;
+    height: auto; */
   }
 
   .casestudy_featured_item {
@@ -1582,12 +1438,15 @@ body.recess .casestudy_featured_item img {
 .casestudy_mobile_image {
   max-width: 160px;
   width: 50%;
+  height: 100%;
   overflow: hidden;
   line-height: 0;
+  aspect-ratio: 1 / 2.1;
 }
 
 .casestudy_mobile_image img {
   width: 100%;
+  height: 100%;
   object-fit: cover;
   border: 1px solid var(--black);
   border-radius: 5px;
@@ -2813,4 +2672,56 @@ body.upbeat .casestudy_tagline_section {
   .casestudy_tagline_section .heading.heading-sne .line2 {
     margin-left: -43%;
   }
+}
+
+.casestudy_cards {
+  aspect-ratio: 1 / 0.45;
+}
+
+/* Recess */
+body.recess .casestudy_info_website_image {
+  aspect-ratio: 1/0.52;
+}
+
+body.recess .casestudy_footer_cover {
+  aspect-ratio: 1 / 0.4;
+}
+
+/* Gnome */
+body.gnome .casestudy_info_website_image {
+  aspect-ratio: 1/0.52;
+}
+
+body.gnome .casestudy_pricing {
+  aspect-ratio: 1 / 0.6;
+}
+
+/* Fitelo */
+body.hnb .casestudy_info_website_image {
+  aspect-ratio: 1 / 0.69;
+}
+
+body.fitelo .casestudy_pricing {
+  aspect-ratio: 1 / 0.33;
+}
+
+/* hnb */
+body.hnb .casestudy_info_website_image {
+  aspect-ratio: 1 / 0.69;
+}
+
+/* upbeat */
+body.upbeat {
+}
+
+/* sne */
+body.sne {
+}
+
+/* shomont */
+body.shomont {
+}
+
+/* mau */
+body.mau {
 }

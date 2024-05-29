@@ -13,20 +13,20 @@ document.addEventListener("DOMContentLoaded", function () {
   observer.observe();
 
   // when lazyload image load scrolltrigger refresh
-  function handleLazyLoad(config = {}) {
-    let lazyImages = gsap.utils.toArray("img[loading='lazy']"),
-      timeout = gsap.delayedCall(config.timeout || 1, ScrollTrigger.refresh).pause(),
-      lazyMode = config.lazy !== false,
-      imgLoaded = lazyImages.length,
-      onImgLoad = () => lazyMode ? timeout.restart(true) : --imgLoaded || ScrollTrigger.refresh();
-    lazyImages.forEach((img, i) => {
-      lazyMode || (img.loading = "eager");
-      img.naturalWidth ? onImgLoad() : img.addEventListener("load", onImgLoad);
-    });
-  }
+  // function handleLazyLoad(config = {}) {
+  //   let lazyImages = gsap.utils.toArray("img[loading='lazy']"),
+  //     timeout = gsap.delayedCall(config.timeout || 1, ScrollTrigger.refresh).pause(),
+  //     lazyMode = config.lazy !== false,
+  //     imgLoaded = lazyImages.length,
+  //     onImgLoad = () => lazyMode ? timeout.restart(true) : --imgLoaded || ScrollTrigger.refresh();
+  //   lazyImages.forEach((img, i) => {
+  //     lazyMode || (img.loading = "eager");
+  //     img.naturalWidth ? onImgLoad() : img.addEventListener("load", onImgLoad);
+  //   });
+  // }
 
-  // usage: you can optionally set lazy to false to change all images to load="eager". timeout is how many seconds it throttles the loading events that call ScrollTrigger.refresh()
-  handleLazyLoad({ lazy: true, timeout: 1 });
+  // // usage: you can optionally set lazy to false to change all images to load="eager". timeout is how many seconds it throttles the loading events that call ScrollTrigger.refresh()
+  // handleLazyLoad({ lazy: true, timeout: 1 });
 
 
   // gsap.utils.toArray("img[loading='lazy']").forEach(img => {

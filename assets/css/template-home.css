@@ -793,6 +793,7 @@
 .wwd_row .icon_block img {
   max-width: 80px;
   margin-bottom: -18px;
+  vertical-align: baseline;
 }
 
 .wwd_row .text_block {
