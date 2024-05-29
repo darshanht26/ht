@@ -1,5 +1,3 @@
-document.documentElement.style.overflow = 'hidden'; // for html
-
 gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
 
 const smoother = ScrollSmoother.create({
@@ -8,13 +6,6 @@ const smoother = ScrollSmoother.create({
 });
 
 document.addEventListener("DOMContentLoaded", function () {
-  // Hide the loader
-  document.getElementById('site-loader').style.display = 'none';
-  // Show the content
-  document.getElementById('site-page').style.display = 'block';
-  // Remove overflow hidden from the root element
-  document.documentElement.style.overflow = null; // for html
-
   // marquee init
   Marquee3k.init();
 
