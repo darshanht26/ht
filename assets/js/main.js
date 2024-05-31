@@ -9,30 +9,9 @@ const smoother = ScrollSmoother.create({
 document.addEventListener("DOMContentLoaded", function () {
   // marquee init
   Marquee3k.init();
-
+  // lozad init
   const observer = lozad();
   observer.observe();
-
-  // when lazyload image load scrolltrigger refresh
-  // function handleLazyLoad(config = {}) {
-  //   let lazyImages = gsap.utils.toArray("img[loading='lazy']"),
-  //     timeout = gsap.delayedCall(config.timeout || 1, ScrollTrigger.refresh).pause(),
-  //     lazyMode = config.lazy !== false,
-  //     imgLoaded = lazyImages.length,
-  //     onImgLoad = () => lazyMode ? timeout.restart(true) : --imgLoaded || ScrollTrigger.refresh();
-  //   lazyImages.forEach((img, i) => {
-  //     lazyMode || (img.loading = "eager");
-  //     img.naturalWidth ? onImgLoad() : img.addEventListener("load", onImgLoad);
-  //   });
-  // }
-
-  // // usage: you can optionally set lazy to false to change all images to load="eager". timeout is how many seconds it throttles the loading events that call ScrollTrigger.refresh()
-  // handleLazyLoad({ lazy: false, timeout: 1 });
-
-
-  // gsap.utils.toArray("img[loading='lazy']").forEach(img => {
-  //   img.addEventListener("load", () => scrollTrigger.refresh())
-  // });
 
   document.querySelector(".site_menu_modal").style.display = "none";
   var menuOpen = new TimelineLite({ paused: true });
@@ -94,11 +73,6 @@ function stickyOnScroll() {
 window.addEventListener("scroll", function () {
   stickyOnScroll();
 });
-
-// Apply for window reisze
-// window.addEventListener('resize', () => {
-//   stickyOnScroll();
-// });
 
 // Apply for window load complete
 window.addEventListener("load", () => {

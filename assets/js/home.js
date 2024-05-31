@@ -1,35 +1,12 @@
-
-// wait until DOM is ready
 document.addEventListener("DOMContentLoaded", function (event) {
-  // // Get a reference for the target element
-  // let element = document.querySelector('.intro_hero');
-  // // Get the offset position of the element
-  // let handleIntersection = function (entries) {
-  //   for (let entry of entries) {
-  //     // Check if the element is not in intersecting the viewport
-  //     if (!entry.isIntersecting) {
-  //       document.querySelectorAll(".lazyload").forEach(img => {
-  //         img.addEventListener("load", () => smoother.scrollTrigger.refresh())
-  //       });
-  //     }
-  //   }
-  // }
-
-  // if (element) {
-  //   const observer = new IntersectionObserver(handleIntersection);
-  //   observer.observe(element);
-  // }
-
   // home HT text animation
   gsap.to(".intro_hero .intro_footer .ht_text", {
-    //xPercent: -40,
     x: () => -(document.querySelector('.ht_text').offsetWidth - window.innerWidth),
     ease: "power1.inOut",
     scrollTrigger: {
       trigger: ".intro_hero",
       scrub: true,
       start: "top top",
-      invalidateOnRefresh: true,
     },
   });
 

@@ -26,51 +26,21 @@ document.addEventListener("DOMContentLoaded", function (event) {
     speed: 0.935,
   });
 
-  // Create a Timeline for your animations
-  const masterTimeline = gsap.timeline();
-  // Add animations to the master timeline
-  masterTimeline.to(".design_image", {
-    scale: 1.15,
-    duration: 1.5, // Adjust the duration as needed
-    ease: "back.out",
-    scrollTrigger: {
-      trigger: ".design_image",
-      start: "top bottom", // Adjust the start point
-      end: "bottom top", // Adjust the end point
-      scrub: true,
-    },
-  });
-
-  masterTimeline.to(".design_image_2", {
-    scale: 1.15,
-    duration: 1.5,
-    ease: "back.out",
-    scrollTrigger: {
-      trigger: ".design_image_2",
-      start: "top bottom",
-      end: "bottom top",
-      scrub: true,
-    },
-  });
-
-  const design_image_3 = document.querySelector('.design_image_3');
-
-  if (design_image_3) {
-    masterTimeline.to(".design_image_3", {
+  // scale image animation
+  const scaleImages = document.querySelectorAll('[data-animation="scale"]');
+  scaleImages.forEach(scaleImage => {
+    gsap.to(scaleImage, {
       scale: 1.15,
       duration: 1.5,
       ease: "back.out",
       scrollTrigger: {
-        trigger: ".design_image_3",
+        trigger: scaleImage,
         start: "top bottom",
         end: "bottom top",
         scrub: true,
       },
     });
-  }
-
-  // Ensure that all animations work together
-  masterTimeline.play();
+  });
 
   const headerImage = document.querySelector('.cs_anim_header');
   const logo = document.querySelector('.cs_anim_logo');
