@@ -77,10 +77,12 @@
   z-index: 5;
   top: -10px;
   max-width: 343px;
+  aspect-ratio: 1 / 0.66;
 }
 
-.intro_image_1 img {
-  aspect-ratio: 1 / 0.66;
+.intro_image_1 {
+  width: 100%;
+  height: 100%;
 }
 
 .intro_image_2 {
@@ -1231,7 +1233,9 @@
 
 @media (min-width: 992px) {
   .featured_work_right .featured_brand_image {
-    max-width: 440px;
+    /* max-width: 440px; */
+    max-width: 30.5vw;
+    aspect-ratio: 1 / 0.91;
     margin: 10px 0;
     height: auto;
     border: 2px solid var(--black);
@@ -1329,13 +1333,14 @@
 
 .our_clients_list li {
   line-height: 0;
-  height: 21vw;
+  /* height: 21vw; */
   display: flex;
   align-items: center;
   justify-content: center;
   width: 50%;
   border-right: 1px solid #1c1c1c;
   border-bottom: 1px solid #1c1c1c;
+  aspect-ratio: 1/0.47;
 }
 
 .our_clients_list li img {
@@ -1394,7 +1399,7 @@
   }
 
   .our_clients_list li {
-    height: 11vw;
+    /* height: 11vw; */
     width: 25%;
   }
 

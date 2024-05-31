@@ -323,6 +323,7 @@ img {
   width: 55px;
   height: 55px;
   flex-shrink: 0;
+  aspect-ratio: 1/1;
 }
 
 .casestudy_tagline_section .heading.heading-upbeat .line1 {
@@ -757,6 +758,11 @@ img {
   flex-wrap: wrap;
   flex-direction: column;
   gap: 16px;
+}
+
+.font_styles img {
+  width: auto;
+  height: auto;
 }
 
 .font_style_1 {
@@ -1998,6 +2004,7 @@ body.recess .casestudy_featured_item img {
     z-index: -1;
     bottom: 9%;
     right: 7%;
+    aspect-ratio: 1/1.12;
   }
 
   .casestudy_logo_and_mascot.hnb_mascot {
@@ -2506,7 +2513,6 @@ body.recess .casestudy_featured_item img {
 /* =============== CASE STUDY ANIMATION ============= */
 
 /* Header Image */
-
 .casestudy_tagline_section.bright {
   height: fit-content;
   margin-bottom: 0;
@@ -2520,7 +2526,6 @@ body.recess .casestudy_featured_item img {
 .cs_anim_header img {
   width: 100%;
   height: 100%;
-  aspect-ratio: 1 / 0.55;
 }
 
 .scroll-animation {
@@ -2674,6 +2679,11 @@ body.upbeat .casestudy_tagline_section {
   }
 }
 
+.casestudy_info_website_image {
+  width: 100%;
+  height: 100%;
+}
+
 .casestudy_cards {
   aspect-ratio: 1 / 0.45;
 }
@@ -2688,6 +2698,10 @@ body.recess .casestudy_footer_cover {
 }
 
 /* Gnome */
+body.gnome .casestudy_header_badge {
+  aspect-ratio: 1/1;
+}
+
 body.gnome .casestudy_info_website_image {
   aspect-ratio: 1/0.52;
 }
@@ -2696,13 +2710,39 @@ body.gnome .casestudy_pricing {
   aspect-ratio: 1 / 0.6;
 }
 
+body.gnome .deep_dive_image_section {
+  aspect-ratio: 1/0.59;
+}
+
+body.gnome .casestudy_awards {
+  aspect-ratio: 1 / 0.51;
+}
+
+body.gnome .casestudy_awards .casestudy_award {
+  aspect-ratio: 1/1.3;
+}
+
+@media (min-width: 992px) {
+  body.gnome .casestudy_logo_and_mascot .company_logo {
+    aspect-ratio: 1/0.255;
+  }
+}
+
 /* Fitelo */
-body.hnb .casestudy_info_website_image {
-  aspect-ratio: 1 / 0.69;
+body.fitelo .casestudy_info_website_image {
+  aspect-ratio: 1 / 0.56;
 }
 
 body.fitelo .casestudy_pricing {
   aspect-ratio: 1 / 0.33;
+}
+
+body.fitelo .casestudy_custom_iconography {
+  aspect-ratio: 1/0.45;
+}
+
+body.fitelo .deep_dive_image_section {
+  aspect-ratio: 1/0.835;
 }
 
 /* hnb */
@@ -2710,18 +2750,124 @@ body.hnb .casestudy_info_website_image {
   aspect-ratio: 1 / 0.69;
 }
 
+body.hnb .deep_dive_image_section_1 {
+  aspect-ratio: 1/0.61;
+}
+
+body.hnb .deep_dive_image_section_2 {
+  aspect-ratio: 1/0.6;
+}
+
+body.hnb .deep_dive_image_section_3,
+body.hnb .deep_dive_image_section_4 {
+  aspect-ratio: 1/0.66;
+}
+
+body.hnb .casestudy_logo_and_mascot.hnb_mascot img {
+  height: auto;
+}
+
+@media (min-width: 992px) {
+  body.hnb .casestudy_logo_and_mascot .company_logo {
+    aspect-ratio: 1/0.255;
+  }
+}
+
 /* upbeat */
-body.upbeat {
+body.upbeat .deep_dive_image_section {
+  aspect-ratio: 1/0.55;
+}
+
+body.upbeat .desktop_faq,
+body.upbeat .mobile_faq {
+  aspect-ratio: 1/0.63;
+  border-radius: 40px;
+  overflow: hidden;
+}
+.support-icon-block {
+  height: 72px;
+  width: 72px;
+}
+
+body.upbeat .font_style_1 {
+  min-height: 58px;
+}
+
+body.upbeat .font_style_2 {
+  min-height: 14px;
 }
 
 /* sne */
-body.sne {
+body.sne .casestudy_info_website_image {
+  aspect-ratio: 1/0.775;
+}
+
+body.sne .deep_dive_image_section_1 {
+  aspect-ratio: 1/0.6;
+}
+
+body.sne .deep_dive_image_section_2 {
+  aspect-ratio: 1/0.7;
+}
+
+body.sne .deep_dive_image_section_3 {
+  aspect-ratio: 1/0.57;
+}
+
+body.sne .desktop_faq {
+  aspect-ratio: 1/0.28;
 }
 
 /* shomont */
-body.shomont {
+body.shomont .casestudy_info_website_image {
+  aspect-ratio: 1/0.6;
+}
+
+body.shomont .deep_dive_image_section_1 {
+  aspect-ratio: 1/1.05;
+}
+
+body.shomont .deep_dive_image_section_2 {
+  aspect-ratio: 1/0.71;
+}
+
+body.shomont .desktop_faq {
+  aspect-ratio: 1/0.63;
 }
 
 /* mau */
-body.mau {
+body.mau .casestudy_info_website_image {
+  aspect-ratio: 1/0.565;
+}
+
+body.mau .deep_dive_image_section_1 {
+  aspect-ratio: 1/0.36;
+}
+
+body.mau .deep_dive_image_section_2 {
+  aspect-ratio: 1/0.65;
+}
+
+body.mau .casestudy_awards {
+  aspect-ratio: 1/0.4;
+}
+
+body.mau .casestudy_awards {
+  aspect-ratio: 1/0.25;
+}
+
+body.mau .font_style_1 {
+  height: 28px;
+}
+
+body.mau .font_style_2 {
+  height: 20px;
+}
+
+body.mau .font_style_3 {
+  height: 14px;
+}
+
+body.mau .casestudy_logo_and_mascot .company_logo {
+  aspect-ratio: 1/0.16;
 }

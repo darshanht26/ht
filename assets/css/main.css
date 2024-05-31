@@ -85,7 +85,7 @@ body {
 
 .site-loader::before {
   content: "";
-  position: fixed;
+  position: absolute;
   left: calc(50% - 35px);
   top: calc(50% - 35px);
   transform: translate(-50%, -50%);
