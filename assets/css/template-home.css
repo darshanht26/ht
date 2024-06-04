@@ -708,6 +708,9 @@
   .tag_row_mix .tag_pill_image {
     width: 0;
   }
+  .tag_row_mix_desktop .tag_pill_image {
+    aspect-ratio: 1/0.406;
+  }
 }
 
 @media (min-width: 992px) {
@@ -1333,7 +1336,7 @@
 
 .our_clients_list li {
   line-height: 0;
-  /* height: 21vw; */
+  height: 21vw;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1399,7 +1402,7 @@
   }
 
   .our_clients_list li {
-    /* height: 11vw; */
+    height: 11vw;
     width: 25%;
   }
 
