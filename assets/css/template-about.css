@@ -518,6 +518,12 @@
   width: 162px;
   margin: auto;
   margin-right: 0;
+  aspect-ratio: 1/0.27;
+}
+
+.about_values_section .ht_details .guild_logo img {
+  width: 100%;
+  height: auto;
 }
 
 .about_values_section .ht_details p {
@@ -1469,24 +1475,5 @@
   .btn_group {
     padding: 50px 42px;
     gap: 50px;
-  }
-}
-
-/* =============  Helper Classes  ============ */
-.hidden {
-  display: none;
-}
-
-.block {
-  display: block;
-}
-
-@media (min-width: 992px) {
-  .xl\:hidden {
-    display: none;
-  }
-
-  .xl\:block {
-    display: block;
   }
 }
