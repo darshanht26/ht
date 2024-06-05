@@ -1,7 +1,7 @@
 gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
 
 const smoother = ScrollSmoother.create({
-  smooth: 1.5,
+  smooth: 1.25,
   smoothTouch: 0,
   normalizeScroll: true,
 });
